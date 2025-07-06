@@ -1,0 +1,501 @@
+Patient_ID,Age,Gender,Symptoms,Medical_History,Medications,Lab_Reports,Lifestyle,Risk_Level
+P0001,73,Female,"Back pain, dizziness",Cancer,Metformin,High cholesterol,Alcoholic,High
+P0002,29,Male,"Back pain, dizziness",None,None,Low RBC,Active,Low
+P0003,52,Male,"Headache, nausea",None,Metformin,Normal,None,Low
+P0004,75,Male,"Cough, fever",Cancer,Metformin,Normal sugar,None,High
+P0005,61,Female,"Headache, nausea",None,Lisinopril,High WBC,None,Low
+P0006,35,Female,"Cough, fever",None,Atorvastatin,Normal,None,Low
+P0007,42,Male,"Chest pain, fatigue",Cancer,None,Elevated liver enzymes,Healthy Diet,High
+P0008,23,Male,"Back pain, dizziness",None,Metformin,Low RBC,None,Low
+P0009,46,Male,"Headache, nausea",Diabetes,Metformin,Elevated liver enzymes,Healthy Diet,Moderate
+P0010,59,Male,"Back pain, dizziness",Hypertension,Metformin,High cholesterol,None,Moderate
+P0011,34,Female,"Cough, fever",Asthma,Aspirin,Elevated liver enzymes,Active,Low
+P0012,75,Female,"Headache, nausea",Diabetes,Lisinopril,Low RBC,Active,Moderate
+P0013,70,Female,None,Cancer,None,Elevated liver enzymes,Alcoholic,High
+P0014,79,Male,"Headache, nausea",Hypertension,Atorvastatin,High WBC,Smoker,High
+P0015,36,Female,"Cough, fever",Asthma,Atorvastatin,Low RBC,None,Low
+P0016,73,Male,"Back pain, dizziness",Heart Disease,Metformin,Elevated liver enzymes,Alcoholic,High
+P0017,37,Male,"Back pain, dizziness",Hypertension,Lisinopril,Low RBC,None,Moderate
+P0018,64,Male,"Chest pain, fatigue",Hypertension,Aspirin,Normal,Sedentary,High
+P0019,66,Female,"Chest pain, fatigue",Diabetes,Lisinopril,High WBC,Alcoholic,High
+P0020,63,Female,None,Heart Disease,None,Normal,Sedentary,High
+P0021,48,Male,"Cough, fever",Diabetes,Aspirin,Normal,None,Moderate
+P0022,78,Female,"Back pain, dizziness",Heart Disease,Metformin,Normal,None,High
+P0023,52,Male,None,Heart Disease,Atorvastatin,Normal sugar,None,High
+P0024,35,Female,Shortness of breath,Hypertension,None,Elevated liver enzymes,Active,Moderate
+P0025,31,Male,"Cough, fever",Heart Disease,Atorvastatin,Normal,None,High
+P0026,70,Male,Shortness of breath,Heart Disease,None,High WBC,Smoker,High
+P0027,63,Female,"Headache, nausea",Asthma,Aspirin,High WBC,Alcoholic,High
+P0028,23,Male,None,Cancer,None,Normal sugar,Healthy Diet,High
+P0029,67,Male,"Chest pain, fatigue",Hypertension,Lisinopril,Low RBC,Smoker,High
+P0030,47,Female,"Chest pain, fatigue",Hypertension,Metformin,Low RBC,Healthy Diet,Moderate
+P0031,25,Male,None,None,Metformin,Normal sugar,Healthy Diet,Low
+P0032,26,Female,"Headache, nausea",Asthma,None,Normal sugar,Active,Low
+P0033,63,Female,"Headache, nausea",Asthma,Metformin,High WBC,Sedentary,Low
+P0034,25,Male,"Back pain, dizziness",Asthma,Aspirin,Low RBC,Alcoholic,High
+P0035,49,Female,"Chest pain, fatigue",Asthma,None,Elevated liver enzymes,Active,Low
+P0036,24,Female,"Back pain, dizziness",None,Metformin,High cholesterol,Healthy Diet,Low
+P0037,71,Female,"Cough, fever",Cancer,Atorvastatin,Elevated liver enzymes,None,High
+P0038,31,Male,"Cough, fever",Heart Disease,Metformin,High cholesterol,Healthy Diet,High
+P0039,64,Female,"Back pain, dizziness",Cancer,Atorvastatin,Elevated liver enzymes,Smoker,High
+P0040,45,Female,"Back pain, dizziness",Diabetes,Aspirin,Elevated liver enzymes,None,Moderate
+P0041,73,Female,Shortness of breath,None,Atorvastatin,Normal sugar,Sedentary,High
+P0042,62,Male,"Headache, nausea",Heart Disease,None,Elevated liver enzymes,Healthy Diet,High
+P0043,44,Male,None,Diabetes,Metformin,High WBC,None,Moderate
+P0044,31,Female,"Headache, nausea",Diabetes,Atorvastatin,Low RBC,None,Moderate
+P0045,33,Male,None,Diabetes,None,Normal sugar,None,Moderate
+P0046,49,Female,"Back pain, dizziness",Asthma,None,Normal,Sedentary,Moderate
+P0047,20,Female,"Headache, nausea",Heart Disease,Atorvastatin,High WBC,Active,High
+P0048,52,Female,Shortness of breath,Asthma,Lisinopril,Elevated liver enzymes,Alcoholic,High
+P0049,31,Male,Shortness of breath,Heart Disease,None,Normal sugar,Active,High
+P0050,29,Male,Shortness of breath,Asthma,Metformin,High WBC,Sedentary,Low
+P0051,58,Male,None,Heart Disease,Metformin,Normal sugar,Healthy Diet,High
+P0052,32,Female,"Back pain, dizziness",Hypertension,Aspirin,Elevated liver enzymes,Smoker,High
+P0053,42,Female,Shortness of breath,None,Atorvastatin,Elevated liver enzymes,Healthy Diet,Low
+P0054,56,Female,"Chest pain, fatigue",Asthma,Lisinopril,Normal sugar,Alcoholic,High
+P0055,51,Female,"Headache, nausea",None,Aspirin,Normal sugar,Smoker,High
+P0056,43,Female,"Headache, nausea",Cancer,Aspirin,Normal sugar,Active,High
+P0057,63,Male,Shortness of breath,Hypertension,None,Low RBC,Alcoholic,High
+P0058,58,Male,None,None,Lisinopril,Low RBC,Active,Low
+P0059,68,Female,"Headache, nausea",None,Aspirin,Low RBC,Healthy Diet,Low
+P0060,49,Female,None,Hypertension,Atorvastatin,High cholesterol,None,Moderate
+P0061,77,Male,Shortness of breath,Asthma,Aspirin,Elevated liver enzymes,Smoker,High
+P0062,33,Male,"Chest pain, fatigue",Cancer,None,High WBC,Sedentary,High
+P0063,47,Male,"Headache, nausea",Heart Disease,Atorvastatin,Low RBC,Active,High
+P0064,30,Female,"Chest pain, fatigue",Cancer,None,Normal sugar,Healthy Diet,High
+P0065,30,Male,"Headache, nausea",None,Metformin,High WBC,Smoker,High
+P0066,72,Female,"Chest pain, fatigue",Cancer,Lisinopril,Elevated liver enzymes,Healthy Diet,High
+P0067,78,Female,Shortness of breath,Hypertension,None,Elevated liver enzymes,Healthy Diet,High
+P0068,26,Male,Shortness of breath,Asthma,Lisinopril,High WBC,Healthy Diet,Low
+P0069,55,Male,None,None,Metformin,Low RBC,Smoker,High
+P0070,71,Female,None,Cancer,None,Low RBC,Smoker,High
+P0071,22,Male,"Cough, fever",Asthma,Atorvastatin,High WBC,Alcoholic,High
+P0072,61,Male,Shortness of breath,Diabetes,Atorvastatin,High cholesterol,Smoker,High
+P0073,44,Male,"Chest pain, fatigue",Hypertension,Aspirin,Normal sugar,Smoker,High
+P0074,57,Male,Shortness of breath,Diabetes,Atorvastatin,Normal,Smoker,High
+P0075,56,Female,"Cough, fever",Heart Disease,Metformin,High cholesterol,Sedentary,High
+P0076,29,Female,Shortness of breath,Cancer,Aspirin,Normal sugar,Sedentary,High
+P0077,23,Male,"Back pain, dizziness",Asthma,Atorvastatin,Low RBC,Alcoholic,High
+P0078,40,Male,"Back pain, dizziness",Cancer,Lisinopril,Normal,Active,High
+P0079,48,Male,"Back pain, dizziness",Diabetes,Aspirin,Normal sugar,None,Moderate
+P0080,51,Female,"Cough, fever",Cancer,Aspirin,Elevated liver enzymes,None,High
+P0081,26,Female,Shortness of breath,Asthma,Metformin,Elevated liver enzymes,Healthy Diet,Low
+P0082,66,Female,None,Hypertension,Atorvastatin,Normal,Smoker,High
+P0083,31,Male,None,Cancer,Aspirin,Low RBC,Smoker,High
+P0084,27,Male,"Chest pain, fatigue",Cancer,Aspirin,Low RBC,Active,High
+P0085,44,Male,"Cough, fever",None,Aspirin,Elevated liver enzymes,None,Low
+P0086,79,Male,"Back pain, dizziness",Diabetes,Lisinopril,Normal sugar,Alcoholic,High
+P0087,28,Female,"Back pain, dizziness",Heart Disease,None,High cholesterol,Active,High
+P0088,64,Male,"Back pain, dizziness",Diabetes,Lisinopril,High WBC,Active,Moderate
+P0089,61,Female,None,Asthma,None,High cholesterol,None,Low
+P0090,35,Female,"Chest pain, fatigue",Diabetes,Atorvastatin,High cholesterol,Active,Moderate
+P0091,24,Female,Shortness of breath,Asthma,Lisinopril,Elevated liver enzymes,Alcoholic,High
+P0092,77,Female,"Headache, nausea",Hypertension,Aspirin,Elevated liver enzymes,Smoker,High
+P0093,60,Female,"Cough, fever",Cancer,Aspirin,Elevated liver enzymes,Smoker,High
+P0094,49,Male,"Chest pain, fatigue",Heart Disease,Lisinopril,Low RBC,Smoker,High
+P0095,20,Female,"Headache, nausea",None,Lisinopril,High WBC,Alcoholic,High
+P0096,51,Female,None,Hypertension,None,High cholesterol,Smoker,High
+P0097,33,Female,"Cough, fever",Heart Disease,None,Elevated liver enzymes,Alcoholic,High
+P0098,21,Male,"Chest pain, fatigue",Asthma,None,High cholesterol,None,Low
+P0099,20,Male,"Headache, nausea",Diabetes,Metformin,Elevated liver enzymes,None,Moderate
+P0100,78,Female,Shortness of breath,Heart Disease,Metformin,High WBC,Alcoholic,High
+P0101,80,Male,"Chest pain, fatigue",Asthma,Atorvastatin,Normal,Sedentary,High
+P0102,34,Female,"Headache, nausea",Asthma,Lisinopril,Elevated liver enzymes,Active,Low
+P0103,58,Male,"Cough, fever",Diabetes,Atorvastatin,Elevated liver enzymes,Healthy Diet,Moderate
+P0104,47,Male,"Chest pain, fatigue",Asthma,Aspirin,Normal sugar,Alcoholic,High
+P0105,44,Female,Shortness of breath,None,Metformin,Normal,None,Low
+P0106,80,Female,"Back pain, dizziness",Hypertension,Aspirin,High WBC,Smoker,High
+P0107,69,Male,Shortness of breath,Asthma,Metformin,Normal,None,High
+P0108,58,Female,"Headache, nausea",None,Aspirin,Low RBC,Alcoholic,High
+P0109,34,Male,"Chest pain, fatigue",Asthma,Aspirin,Elevated liver enzymes,Active,Low
+P0110,48,Female,"Back pain, dizziness",Hypertension,Lisinopril,Normal sugar,Active,Moderate
+P0111,27,Male,"Headache, nausea",None,Metformin,Elevated liver enzymes,Smoker,High
+P0112,75,Male,"Headache, nausea",Diabetes,None,Low RBC,Alcoholic,High
+P0113,25,Male,"Chest pain, fatigue",Hypertension,Metformin,Normal,Active,Moderate
+P0114,65,Male,"Cough, fever",Hypertension,Aspirin,High WBC,Active,Moderate
+P0115,37,Male,"Back pain, dizziness",Cancer,None,High cholesterol,Smoker,High
+P0116,74,Female,Shortness of breath,Hypertension,Aspirin,Elevated liver enzymes,Healthy Diet,High
+P0117,47,Female,"Headache, nausea",Heart Disease,Aspirin,High WBC,Healthy Diet,High
+P0118,70,Male,None,None,Metformin,Normal,Active,Low
+P0119,25,Female,"Cough, fever",Cancer,Aspirin,Normal sugar,None,High
+P0120,38,Female,"Chest pain, fatigue",Diabetes,Lisinopril,High cholesterol,Active,Moderate
+P0121,46,Female,Shortness of breath,None,Lisinopril,Elevated liver enzymes,Smoker,High
+P0122,61,Male,"Chest pain, fatigue",Cancer,Metformin,Normal sugar,Healthy Diet,High
+P0123,52,Female,None,Diabetes,Atorvastatin,Normal,Alcoholic,High
+P0124,25,Female,"Headache, nausea",Hypertension,Lisinopril,Normal,Sedentary,Moderate
+P0125,67,Male,"Headache, nausea",None,Lisinopril,Normal sugar,Active,Low
+P0126,51,Male,"Chest pain, fatigue",Heart Disease,Atorvastatin,High WBC,None,High
+P0127,27,Male,"Back pain, dizziness",Asthma,Lisinopril,High cholesterol,Sedentary,Low
+P0128,39,Male,"Back pain, dizziness",Diabetes,Metformin,Normal sugar,Smoker,High
+P0129,33,Male,"Headache, nausea",Asthma,Metformin,Normal sugar,Alcoholic,High
+P0130,47,Male,"Chest pain, fatigue",Diabetes,Aspirin,High cholesterol,Smoker,High
+P0131,63,Female,Shortness of breath,Cancer,None,High cholesterol,None,High
+P0132,29,Female,"Back pain, dizziness",Asthma,Aspirin,Normal,Smoker,High
+P0133,34,Male,"Cough, fever",Hypertension,Metformin,High cholesterol,None,Moderate
+P0134,34,Male,"Headache, nausea",Asthma,Atorvastatin,High WBC,Alcoholic,High
+P0135,46,Male,"Headache, nausea",Diabetes,Aspirin,Elevated liver enzymes,Smoker,High
+P0136,57,Female,None,Asthma,Aspirin,Low RBC,Active,Low
+P0137,78,Male,"Chest pain, fatigue",None,Lisinopril,Low RBC,Healthy Diet,High
+P0138,72,Female,"Chest pain, fatigue",Cancer,Lisinopril,Low RBC,None,High
+P0139,29,Male,Shortness of breath,Hypertension,None,Normal,Smoker,High
+P0140,70,Female,None,None,Aspirin,Low RBC,None,Low
+P0141,41,Male,"Headache, nausea",Diabetes,Lisinopril,Low RBC,Smoker,High
+P0142,59,Male,"Back pain, dizziness",Cancer,Aspirin,Normal sugar,Sedentary,High
+P0143,24,Female,None,Hypertension,None,Elevated liver enzymes,Sedentary,Moderate
+P0144,58,Male,"Chest pain, fatigue",Hypertension,Atorvastatin,Elevated liver enzymes,Healthy Diet,Moderate
+P0145,67,Female,None,None,Lisinopril,Normal sugar,Smoker,High
+P0146,23,Male,"Headache, nausea",Heart Disease,Aspirin,High WBC,Healthy Diet,High
+P0147,71,Male,"Back pain, dizziness",Heart Disease,Atorvastatin,Low RBC,Sedentary,High
+P0148,71,Male,"Headache, nausea",None,Atorvastatin,Normal sugar,Healthy Diet,Low
+P0149,39,Male,"Cough, fever",Diabetes,Aspirin,Elevated liver enzymes,Healthy Diet,Moderate
+P0150,55,Female,"Chest pain, fatigue",Heart Disease,Lisinopril,Normal,Sedentary,High
+P0151,77,Female,"Cough, fever",Asthma,None,Low RBC,Healthy Diet,Low
+P0152,65,Female,"Back pain, dizziness",Heart Disease,Lisinopril,Low RBC,Smoker,High
+P0153,74,Male,"Chest pain, fatigue",Cancer,None,High cholesterol,Sedentary,High
+P0154,25,Male,"Chest pain, fatigue",None,None,Low RBC,Smoker,High
+P0155,30,Male,"Headache, nausea",None,Atorvastatin,Normal sugar,Smoker,High
+P0156,21,Female,None,None,Atorvastatin,High WBC,Active,Low
+P0157,65,Female,"Back pain, dizziness",Hypertension,Atorvastatin,Elevated liver enzymes,None,Moderate
+P0158,33,Male,Shortness of breath,Asthma,Metformin,High cholesterol,Smoker,High
+P0159,20,Male,"Back pain, dizziness",Asthma,None,Normal sugar,Active,Low
+P0160,79,Female,"Back pain, dizziness",Heart Disease,Atorvastatin,Elevated liver enzymes,None,High
+P0161,31,Male,Shortness of breath,Cancer,Aspirin,High WBC,Alcoholic,High
+P0162,67,Male,"Chest pain, fatigue",Diabetes,Lisinopril,High WBC,Smoker,High
+P0163,22,Female,"Headache, nausea",Heart Disease,Atorvastatin,High cholesterol,None,High
+P0164,59,Male,"Chest pain, fatigue",Hypertension,Metformin,High WBC,Healthy Diet,Moderate
+P0165,74,Female,"Back pain, dizziness",Diabetes,Metformin,High cholesterol,Sedentary,Moderate
+P0166,35,Female,"Back pain, dizziness",Cancer,Lisinopril,High WBC,Alcoholic,High
+P0167,72,Female,"Cough, fever",Asthma,Lisinopril,Normal,Sedentary,Low
+P0168,54,Male,"Back pain, dizziness",Diabetes,Lisinopril,Normal sugar,None,Moderate
+P0169,73,Female,"Cough, fever",Asthma,Atorvastatin,Low RBC,Healthy Diet,Low
+P0170,73,Female,Shortness of breath,Heart Disease,Metformin,Normal,Healthy Diet,High
+P0171,25,Female,None,Heart Disease,Aspirin,Low RBC,Alcoholic,High
+P0172,26,Female,"Chest pain, fatigue",Cancer,Lisinopril,High WBC,Smoker,High
+P0173,53,Male,None,None,Aspirin,Low RBC,None,Low
+P0174,42,Female,"Cough, fever",Cancer,Atorvastatin,Normal sugar,Healthy Diet,High
+P0175,20,Female,None,Heart Disease,Atorvastatin,Normal,Active,High
+P0176,62,Female,"Chest pain, fatigue",Heart Disease,None,Elevated liver enzymes,None,High
+P0177,39,Male,"Cough, fever",Heart Disease,None,Low RBC,Sedentary,High
+P0178,26,Male,"Back pain, dizziness",Asthma,Metformin,High WBC,Active,Low
+P0179,30,Female,"Back pain, dizziness",Asthma,Aspirin,High WBC,Alcoholic,High
+P0180,70,Female,None,Hypertension,Atorvastatin,High WBC,Sedentary,Moderate
+P0181,69,Female,"Cough, fever",Cancer,None,High cholesterol,Healthy Diet,High
+P0182,42,Male,None,Diabetes,None,Low RBC,None,Moderate
+P0183,40,Male,None,Heart Disease,Atorvastatin,Elevated liver enzymes,Healthy Diet,High
+P0184,61,Male,"Cough, fever",Cancer,Metformin,High WBC,Smoker,High
+P0185,77,Male,"Headache, nausea",Diabetes,Lisinopril,Low RBC,Healthy Diet,Moderate
+P0186,47,Female,Shortness of breath,Cancer,Aspirin,High cholesterol,Alcoholic,High
+P0187,66,Male,"Back pain, dizziness",Diabetes,Atorvastatin,High WBC,None,Moderate
+P0188,78,Male,"Cough, fever",Heart Disease,Lisinopril,Normal sugar,Active,High
+P0189,21,Male,"Headache, nausea",None,Metformin,Elevated liver enzymes,Active,Low
+P0190,23,Male,"Headache, nausea",None,None,Elevated liver enzymes,Alcoholic,High
+P0191,56,Female,Shortness of breath,Diabetes,Atorvastatin,Normal sugar,Healthy Diet,Moderate
+P0192,21,Female,"Back pain, dizziness",Diabetes,Metformin,Normal,None,Moderate
+P0193,59,Female,"Cough, fever",Heart Disease,Aspirin,High cholesterol,Healthy Diet,High
+P0194,42,Female,None,Asthma,None,High cholesterol,Active,Low
+P0195,71,Male,"Back pain, dizziness",Hypertension,Metformin,Normal sugar,Alcoholic,High
+P0196,63,Female,None,Hypertension,Metformin,High cholesterol,None,Moderate
+P0197,65,Female,"Headache, nausea",Asthma,None,High cholesterol,None,Low
+P0198,66,Female,"Headache, nausea",Diabetes,Metformin,Low RBC,Smoker,High
+P0199,50,Female,"Cough, fever",Diabetes,Lisinopril,Low RBC,Smoker,High
+P0200,29,Male,Shortness of breath,Asthma,Atorvastatin,Normal sugar,None,Low
+P0201,60,Female,"Cough, fever",Cancer,Aspirin,Normal,Healthy Diet,High
+P0202,70,Female,"Headache, nausea",Diabetes,Metformin,Normal,Alcoholic,High
+P0203,34,Male,"Back pain, dizziness",Diabetes,None,Low RBC,Healthy Diet,Moderate
+P0204,28,Female,Shortness of breath,Asthma,None,Elevated liver enzymes,Active,Low
+P0205,64,Male,"Cough, fever",None,None,Normal sugar,Healthy Diet,Low
+P0206,65,Male,"Cough, fever",Cancer,Metformin,Normal sugar,None,High
+P0207,32,Female,Shortness of breath,Hypertension,Lisinopril,High WBC,Smoker,High
+P0208,39,Female,"Cough, fever",None,Atorvastatin,High WBC,Alcoholic,High
+P0209,21,Male,"Cough, fever",Heart Disease,Lisinopril,High WBC,Healthy Diet,High
+P0210,38,Male,Shortness of breath,Diabetes,Aspirin,Low RBC,Alcoholic,High
+P0211,47,Female,"Back pain, dizziness",None,Metformin,Normal sugar,Alcoholic,High
+P0212,69,Male,"Cough, fever",Heart Disease,None,High cholesterol,Alcoholic,High
+P0213,74,Male,"Headache, nausea",Cancer,None,High cholesterol,Active,High
+P0214,69,Male,"Headache, nausea",Hypertension,Aspirin,Low RBC,Alcoholic,High
+P0215,74,Female,"Back pain, dizziness",Cancer,Lisinopril,Normal sugar,Active,High
+P0216,80,Male,"Headache, nausea",Heart Disease,Aspirin,High WBC,Healthy Diet,High
+P0217,40,Female,Shortness of breath,Diabetes,Aspirin,Elevated liver enzymes,Smoker,High
+P0218,66,Female,Shortness of breath,Cancer,Metformin,High WBC,None,High
+P0219,21,Female,"Back pain, dizziness",Asthma,None,Normal sugar,Active,Low
+P0220,69,Female,"Cough, fever",Hypertension,Atorvastatin,Low RBC,Active,Moderate
+P0221,61,Male,None,Cancer,None,Elevated liver enzymes,None,High
+P0222,58,Female,"Back pain, dizziness",Asthma,Atorvastatin,Normal,Smoker,High
+P0223,72,Male,Shortness of breath,Cancer,Atorvastatin,Elevated liver enzymes,Smoker,High
+P0224,43,Male,"Chest pain, fatigue",None,Lisinopril,Normal sugar,Alcoholic,High
+P0225,22,Male,"Headache, nausea",Cancer,Metformin,High cholesterol,Active,High
+P0226,23,Female,"Headache, nausea",Hypertension,Metformin,Elevated liver enzymes,Healthy Diet,Moderate
+P0227,41,Male,"Chest pain, fatigue",Hypertension,Atorvastatin,Normal,Smoker,High
+P0228,53,Female,"Chest pain, fatigue",Diabetes,Atorvastatin,Normal sugar,Smoker,High
+P0229,27,Female,"Back pain, dizziness",Cancer,Metformin,Low RBC,Smoker,High
+P0230,22,Male,"Headache, nausea",Asthma,None,High WBC,Sedentary,Low
+P0231,30,Male,"Headache, nausea",Hypertension,Lisinopril,High cholesterol,Alcoholic,High
+P0232,42,Female,"Back pain, dizziness",Asthma,Lisinopril,High cholesterol,Healthy Diet,Low
+P0233,39,Male,"Chest pain, fatigue",Diabetes,Aspirin,High cholesterol,Healthy Diet,Moderate
+P0234,76,Male,Shortness of breath,None,Atorvastatin,Normal sugar,Active,High
+P0235,60,Female,Shortness of breath,Hypertension,Atorvastatin,High WBC,Healthy Diet,Moderate
+P0236,66,Male,None,Hypertension,Aspirin,Normal sugar,Sedentary,Moderate
+P0237,54,Male,"Chest pain, fatigue",None,None,Normal,Sedentary,Moderate
+P0238,24,Male,None,None,Aspirin,Low RBC,Sedentary,Low
+P0239,41,Male,"Back pain, dizziness",None,Lisinopril,Normal sugar,None,Low
+P0240,55,Male,Shortness of breath,Asthma,Atorvastatin,High WBC,Sedentary,Moderate
+P0241,33,Male,"Cough, fever",Asthma,Atorvastatin,Low RBC,Healthy Diet,Low
+P0242,77,Male,None,Heart Disease,None,Normal,None,High
+P0243,64,Female,"Headache, nausea",Hypertension,Atorvastatin,Low RBC,None,Moderate
+P0244,69,Male,"Cough, fever",Diabetes,Atorvastatin,High WBC,Sedentary,Moderate
+P0245,58,Male,Shortness of breath,Cancer,None,Low RBC,Sedentary,High
+P0246,32,Male,"Headache, nausea",Diabetes,Atorvastatin,Low RBC,Healthy Diet,Moderate
+P0247,63,Female,"Back pain, dizziness",Heart Disease,Atorvastatin,High cholesterol,None,High
+P0248,42,Male,"Chest pain, fatigue",Cancer,Aspirin,Low RBC,Alcoholic,High
+P0249,31,Female,"Headache, nausea",Heart Disease,Aspirin,Low RBC,Healthy Diet,High
+P0250,39,Male,Shortness of breath,Hypertension,Lisinopril,Elevated liver enzymes,Smoker,High
+P0251,49,Female,"Back pain, dizziness",Diabetes,Aspirin,High WBC,Sedentary,Moderate
+P0252,33,Female,"Cough, fever",Diabetes,Aspirin,High WBC,Active,Moderate
+P0253,40,Male,"Cough, fever",Heart Disease,Atorvastatin,High cholesterol,Active,High
+P0254,68,Female,"Back pain, dizziness",Cancer,None,Low RBC,None,High
+P0255,25,Female,None,Heart Disease,Aspirin,High cholesterol,Healthy Diet,High
+P0256,42,Male,"Back pain, dizziness",Asthma,Atorvastatin,Normal sugar,Alcoholic,High
+P0257,55,Male,"Headache, nausea",Heart Disease,Metformin,Elevated liver enzymes,Healthy Diet,High
+P0258,77,Male,None,Cancer,Metformin,High cholesterol,Smoker,High
+P0259,50,Male,None,Heart Disease,Aspirin,Normal sugar,Healthy Diet,High
+P0260,69,Female,None,Heart Disease,Aspirin,Normal sugar,Active,High
+P0261,80,Male,"Cough, fever",Asthma,Metformin,High cholesterol,None,Low
+P0262,25,Male,"Headache, nausea",Asthma,Atorvastatin,High WBC,Alcoholic,High
+P0263,28,Male,Shortness of breath,None,Metformin,High WBC,Healthy Diet,Low
+P0264,73,Female,None,Cancer,None,Normal sugar,Sedentary,High
+P0265,49,Female,"Chest pain, fatigue",Cancer,Lisinopril,Normal,Healthy Diet,High
+P0266,37,Male,"Chest pain, fatigue",None,Lisinopril,High cholesterol,None,Low
+P0267,24,Female,"Headache, nausea",Asthma,Atorvastatin,Low RBC,Sedentary,Low
+P0268,58,Male,"Headache, nausea",Hypertension,None,Normal sugar,None,Moderate
+P0269,61,Female,"Headache, nausea",Heart Disease,Lisinopril,High cholesterol,Alcoholic,High
+P0270,48,Male,"Headache, nausea",Hypertension,Aspirin,High cholesterol,Sedentary,Moderate
+P0271,77,Female,"Headache, nausea",Asthma,Atorvastatin,Low RBC,None,Low
+P0272,63,Male,"Headache, nausea",None,None,Normal sugar,Smoker,High
+P0273,60,Female,Shortness of breath,Hypertension,None,Normal,Sedentary,Moderate
+P0274,72,Male,"Cough, fever",Asthma,Atorvastatin,Elevated liver enzymes,Active,Low
+P0275,59,Female,"Cough, fever",None,Lisinopril,Low RBC,Sedentary,Moderate
+P0276,77,Female,"Cough, fever",Heart Disease,Atorvastatin,Low RBC,Smoker,High
+P0277,23,Male,"Cough, fever",Heart Disease,Atorvastatin,High cholesterol,Sedentary,High
+P0278,35,Female,"Chest pain, fatigue",Heart Disease,Metformin,High WBC,Smoker,High
+P0279,35,Female,None,Hypertension,Aspirin,Normal sugar,Sedentary,Moderate
+P0280,20,Female,Shortness of breath,Asthma,Lisinopril,High WBC,Sedentary,Low
+P0281,39,Male,"Headache, nausea",Hypertension,Atorvastatin,High cholesterol,Alcoholic,High
+P0282,76,Female,Shortness of breath,Cancer,Atorvastatin,Normal,Active,High
+P0283,32,Male,None,Asthma,Atorvastatin,Normal sugar,Smoker,High
+P0284,31,Female,"Back pain, dizziness",Asthma,Lisinopril,Normal sugar,Smoker,High
+P0285,42,Male,"Back pain, dizziness",None,Metformin,High WBC,Alcoholic,High
+P0286,70,Male,None,Hypertension,Aspirin,Elevated liver enzymes,Healthy Diet,Moderate
+P0287,27,Male,None,Hypertension,Aspirin,Normal sugar,None,Moderate
+P0288,61,Male,"Headache, nausea",Diabetes,Atorvastatin,High cholesterol,Alcoholic,High
+P0289,46,Female,"Chest pain, fatigue",Heart Disease,Atorvastatin,Low RBC,Smoker,High
+P0290,60,Female,"Back pain, dizziness",Asthma,Metformin,Normal sugar,None,Low
+P0291,63,Female,"Cough, fever",Diabetes,Atorvastatin,High cholesterol,Alcoholic,High
+P0292,70,Male,Shortness of breath,Diabetes,Atorvastatin,Low RBC,Sedentary,High
+P0293,71,Female,"Chest pain, fatigue",None,Atorvastatin,High WBC,None,High
+P0294,65,Male,Shortness of breath,Heart Disease,Aspirin,High cholesterol,Alcoholic,High
+P0295,55,Male,"Cough, fever",Heart Disease,Lisinopril,Low RBC,Healthy Diet,High
+P0296,55,Female,"Back pain, dizziness",Asthma,Atorvastatin,Normal sugar,Smoker,High
+P0297,42,Male,None,Cancer,Atorvastatin,Normal,None,High
+P0298,71,Male,"Back pain, dizziness",Hypertension,Atorvastatin,High WBC,None,Moderate
+P0299,43,Male,"Chest pain, fatigue",Diabetes,Aspirin,High WBC,Alcoholic,High
+P0300,64,Male,Shortness of breath,Hypertension,Metformin,Normal sugar,Smoker,High
+P0301,64,Female,"Cough, fever",None,Aspirin,Normal sugar,Active,Low
+P0302,23,Female,"Back pain, dizziness",Diabetes,Lisinopril,Low RBC,Smoker,High
+P0303,56,Male,"Back pain, dizziness",Diabetes,Aspirin,High cholesterol,Smoker,High
+P0304,42,Female,"Back pain, dizziness",Heart Disease,Atorvastatin,High cholesterol,Smoker,High
+P0305,34,Male,"Headache, nausea",Heart Disease,Aspirin,Normal,Smoker,High
+P0306,36,Male,None,None,Lisinopril,High WBC,None,Low
+P0307,68,Male,"Headache, nausea",None,None,High WBC,Smoker,High
+P0308,27,Male,"Headache, nausea",Diabetes,Lisinopril,Low RBC,Alcoholic,High
+P0309,77,Male,"Back pain, dizziness",Cancer,Lisinopril,High WBC,Smoker,High
+P0310,23,Female,None,Diabetes,Metformin,Normal,Healthy Diet,Moderate
+P0311,45,Male,"Back pain, dizziness",None,None,High WBC,None,Low
+P0312,68,Male,Shortness of breath,Hypertension,Metformin,Normal,Healthy Diet,High
+P0313,61,Female,None,None,None,High WBC,Healthy Diet,Low
+P0314,43,Male,"Back pain, dizziness",Asthma,Aspirin,Low RBC,Sedentary,Moderate
+P0315,63,Female,"Back pain, dizziness",Asthma,Aspirin,Elevated liver enzymes,Sedentary,Low
+P0316,23,Female,"Cough, fever",Cancer,Atorvastatin,Normal,None,High
+P0317,26,Female,None,Asthma,Lisinopril,Low RBC,None,Low
+P0318,26,Male,"Headache, nausea",Hypertension,Atorvastatin,Low RBC,None,Moderate
+P0319,38,Male,Shortness of breath,Diabetes,Lisinopril,High WBC,Alcoholic,High
+P0320,38,Female,"Headache, nausea",Diabetes,Atorvastatin,Normal sugar,Sedentary,Moderate
+P0321,54,Female,"Cough, fever",Cancer,Metformin,Low RBC,Active,High
+P0322,59,Male,None,Asthma,Metformin,High cholesterol,None,Low
+P0323,28,Female,"Chest pain, fatigue",Asthma,Aspirin,High cholesterol,Alcoholic,High
+P0324,44,Female,"Chest pain, fatigue",Asthma,Metformin,High WBC,Smoker,High
+P0325,76,Female,Shortness of breath,Hypertension,Aspirin,Low RBC,None,High
+P0326,68,Female,Shortness of breath,Diabetes,Metformin,Normal,Active,High
+P0327,47,Female,"Headache, nausea",Heart Disease,Atorvastatin,High WBC,None,High
+P0328,43,Male,"Back pain, dizziness",Diabetes,None,Elevated liver enzymes,Alcoholic,High
+P0329,25,Female,"Headache, nausea",None,Atorvastatin,Normal,Healthy Diet,Low
+P0330,34,Male,"Chest pain, fatigue",Cancer,Metformin,Normal,Alcoholic,High
+P0331,67,Female,"Headache, nausea",Cancer,Atorvastatin,Normal sugar,Active,High
+P0332,68,Female,"Headache, nausea",Diabetes,Atorvastatin,High cholesterol,Healthy Diet,Moderate
+P0333,62,Male,"Headache, nausea",Cancer,Atorvastatin,Low RBC,None,High
+P0334,51,Female,"Chest pain, fatigue",Heart Disease,Aspirin,Low RBC,None,High
+P0335,73,Male,Shortness of breath,None,Atorvastatin,Elevated liver enzymes,Healthy Diet,High
+P0336,46,Male,"Chest pain, fatigue",Heart Disease,Lisinopril,Normal sugar,Alcoholic,High
+P0337,48,Male,"Back pain, dizziness",Heart Disease,None,Normal,Sedentary,High
+P0338,77,Male,None,Heart Disease,Lisinopril,Normal sugar,Healthy Diet,High
+P0339,65,Male,"Chest pain, fatigue",Asthma,None,Elevated liver enzymes,Active,High
+P0340,42,Male,"Back pain, dizziness",Hypertension,Metformin,High cholesterol,Smoker,High
+P0341,41,Male,"Chest pain, fatigue",Heart Disease,Aspirin,Low RBC,Smoker,High
+P0342,48,Male,"Cough, fever",Hypertension,Aspirin,Normal,Sedentary,Moderate
+P0343,50,Female,None,Heart Disease,Lisinopril,High cholesterol,Smoker,High
+P0344,66,Female,Shortness of breath,Cancer,Aspirin,High WBC,Smoker,High
+P0345,51,Male,"Headache, nausea",Cancer,Atorvastatin,Normal sugar,Alcoholic,High
+P0346,23,Male,"Cough, fever",Diabetes,None,Normal sugar,Active,Moderate
+P0347,76,Female,None,Asthma,Aspirin,High cholesterol,Alcoholic,High
+P0348,70,Male,None,None,None,Normal,Sedentary,Low
+P0349,33,Male,Shortness of breath,Asthma,Aspirin,Low RBC,Alcoholic,High
+P0350,45,Female,"Chest pain, fatigue",Heart Disease,Aspirin,Normal sugar,Alcoholic,High
+P0351,48,Female,Shortness of breath,Diabetes,Lisinopril,High cholesterol,None,Moderate
+P0352,68,Female,None,Hypertension,Aspirin,Low RBC,Sedentary,Moderate
+P0353,54,Male,"Headache, nausea",Asthma,Atorvastatin,Normal sugar,Smoker,High
+P0354,22,Female,"Back pain, dizziness",Asthma,Aspirin,High cholesterol,Smoker,High
+P0355,39,Male,None,Heart Disease,Lisinopril,High cholesterol,Alcoholic,High
+P0356,39,Female,None,Diabetes,Metformin,High WBC,Healthy Diet,Moderate
+P0357,57,Male,"Chest pain, fatigue",None,None,High WBC,Smoker,High
+P0358,25,Female,"Chest pain, fatigue",Diabetes,Lisinopril,Normal,Active,Moderate
+P0359,73,Male,None,Diabetes,Lisinopril,Elevated liver enzymes,Sedentary,Moderate
+P0360,62,Male,"Headache, nausea",Hypertension,Atorvastatin,High WBC,Healthy Diet,Moderate
+P0361,49,Male,"Chest pain, fatigue",Diabetes,Atorvastatin,Normal sugar,Active,Moderate
+P0362,46,Female,"Headache, nausea",Diabetes,Atorvastatin,Normal sugar,Sedentary,Moderate
+P0363,67,Male,"Headache, nausea",Diabetes,Atorvastatin,Normal sugar,Healthy Diet,Moderate
+P0364,32,Male,None,None,Atorvastatin,Low RBC,Sedentary,Low
+P0365,35,Female,"Chest pain, fatigue",Diabetes,Aspirin,Low RBC,Active,Moderate
+P0366,66,Male,Shortness of breath,Cancer,Aspirin,Elevated liver enzymes,Healthy Diet,High
+P0367,62,Male,"Chest pain, fatigue",Cancer,None,High cholesterol,Healthy Diet,High
+P0368,26,Female,"Back pain, dizziness",Asthma,Lisinopril,Normal sugar,Active,Low
+P0369,24,Male,"Headache, nausea",Heart Disease,Metformin,High cholesterol,Active,High
+P0370,56,Female,Shortness of breath,Asthma,None,High cholesterol,None,Low
+P0371,74,Female,"Cough, fever",Heart Disease,Aspirin,High cholesterol,Healthy Diet,High
+P0372,55,Female,Shortness of breath,Hypertension,Metformin,Normal sugar,Alcoholic,High
+P0373,73,Female,None,Heart Disease,Atorvastatin,Elevated liver enzymes,Alcoholic,High
+P0374,22,Male,None,Diabetes,Aspirin,Elevated liver enzymes,Sedentary,Moderate
+P0375,29,Female,"Cough, fever",Hypertension,Aspirin,Normal,None,Moderate
+P0376,38,Male,"Chest pain, fatigue",Cancer,Lisinopril,Elevated liver enzymes,Sedentary,High
+P0377,65,Male,"Back pain, dizziness",Diabetes,Aspirin,High WBC,Healthy Diet,Moderate
+P0378,38,Male,"Back pain, dizziness",None,Lisinopril,High cholesterol,Smoker,High
+P0379,37,Male,None,None,None,Elevated liver enzymes,Sedentary,Low
+P0380,36,Male,"Headache, nausea",Heart Disease,Metformin,High WBC,Sedentary,High
+P0381,62,Female,"Cough, fever",Asthma,Aspirin,High WBC,Active,Low
+P0382,52,Male,None,Cancer,Atorvastatin,Elevated liver enzymes,Active,High
+P0383,48,Male,Shortness of breath,Cancer,Aspirin,High cholesterol,Healthy Diet,High
+P0384,28,Female,"Chest pain, fatigue",Cancer,Lisinopril,High cholesterol,Smoker,High
+P0385,49,Male,None,Asthma,Lisinopril,Low RBC,Alcoholic,High
+P0386,65,Female,None,Heart Disease,Aspirin,Low RBC,Smoker,High
+P0387,67,Male,"Headache, nausea",Hypertension,Atorvastatin,Normal,Smoker,High
+P0388,39,Male,"Headache, nausea",Asthma,None,Low RBC,None,Low
+P0389,71,Male,None,Asthma,Metformin,Normal sugar,Alcoholic,High
+P0390,66,Male,Shortness of breath,Heart Disease,Lisinopril,Elevated liver enzymes,Active,High
+P0391,68,Male,"Headache, nausea",None,None,Low RBC,Active,Low
+P0392,55,Male,"Headache, nausea",Hypertension,Aspirin,Normal,Alcoholic,High
+P0393,37,Female,"Cough, fever",None,Lisinopril,Elevated liver enzymes,None,Low
+P0394,56,Male,None,Diabetes,None,Normal,Active,Moderate
+P0395,71,Female,"Back pain, dizziness",None,Aspirin,High cholesterol,Sedentary,Low
+P0396,75,Female,"Back pain, dizziness",Heart Disease,None,High WBC,None,High
+P0397,31,Female,"Back pain, dizziness",Hypertension,None,High WBC,Alcoholic,High
+P0398,67,Female,"Cough, fever",Diabetes,Aspirin,Elevated liver enzymes,Sedentary,Moderate
+P0399,22,Male,Shortness of breath,Cancer,Aspirin,Elevated liver enzymes,Healthy Diet,High
+P0400,28,Female,"Headache, nausea",None,Aspirin,Normal,Healthy Diet,Low
+P0401,66,Male,"Chest pain, fatigue",Hypertension,None,Normal sugar,Sedentary,High
+P0402,46,Male,"Headache, nausea",None,Atorvastatin,Low RBC,Alcoholic,High
+P0403,68,Female,Shortness of breath,Heart Disease,Atorvastatin,High cholesterol,Healthy Diet,High
+P0404,36,Male,"Back pain, dizziness",Heart Disease,None,High WBC,Active,High
+P0405,55,Male,"Chest pain, fatigue",Cancer,Lisinopril,High cholesterol,Active,High
+P0406,32,Female,Shortness of breath,Diabetes,None,Normal,Active,Moderate
+P0407,61,Male,"Headache, nausea",Asthma,Lisinopril,Normal sugar,Sedentary,Low
+P0408,61,Male,None,Hypertension,Atorvastatin,Elevated liver enzymes,Active,Moderate
+P0409,64,Male,Shortness of breath,Heart Disease,None,Normal,Active,High
+P0410,74,Female,Shortness of breath,Asthma,Lisinopril,Normal sugar,Sedentary,High
+P0411,67,Male,"Headache, nausea",Asthma,Metformin,Elevated liver enzymes,Healthy Diet,Low
+P0412,49,Male,"Back pain, dizziness",Cancer,Lisinopril,High cholesterol,Healthy Diet,High
+P0413,69,Female,"Back pain, dizziness",Cancer,Metformin,Normal sugar,Healthy Diet,High
+P0414,76,Male,Shortness of breath,None,None,Normal sugar,None,High
+P0415,69,Female,"Cough, fever",Heart Disease,Aspirin,High cholesterol,Smoker,High
+P0416,29,Female,"Chest pain, fatigue",Heart Disease,Lisinopril,High cholesterol,None,High
+P0417,25,Female,"Cough, fever",Asthma,Aspirin,Low RBC,Sedentary,Low
+P0418,53,Male,None,Heart Disease,None,Low RBC,Sedentary,High
+P0419,35,Male,"Headache, nausea",Heart Disease,Aspirin,Normal sugar,Sedentary,High
+P0420,61,Male,"Headache, nausea",Cancer,Lisinopril,Low RBC,None,High
+P0421,51,Female,"Back pain, dizziness",Diabetes,Lisinopril,High WBC,Smoker,High
+P0422,49,Female,Shortness of breath,Cancer,Lisinopril,High cholesterol,Alcoholic,High
+P0423,22,Female,None,Heart Disease,Aspirin,Normal,Alcoholic,High
+P0424,20,Female,"Chest pain, fatigue",Hypertension,Aspirin,Low RBC,Active,Moderate
+P0425,29,Male,None,Cancer,Atorvastatin,Normal sugar,Alcoholic,High
+P0426,51,Male,"Chest pain, fatigue",None,Metformin,High WBC,Active,Low
+P0427,42,Male,"Cough, fever",Diabetes,None,High cholesterol,Active,Moderate
+P0428,38,Female,"Back pain, dizziness",Cancer,Atorvastatin,Elevated liver enzymes,Healthy Diet,High
+P0429,55,Female,"Cough, fever",Cancer,Atorvastatin,Elevated liver enzymes,Smoker,High
+P0430,27,Female,"Back pain, dizziness",Diabetes,Metformin,Elevated liver enzymes,Smoker,High
+P0431,60,Female,"Cough, fever",Asthma,Lisinopril,Low RBC,Alcoholic,High
+P0432,68,Female,None,None,Aspirin,Elevated liver enzymes,Active,Low
+P0433,72,Female,"Cough, fever",Diabetes,Metformin,Elevated liver enzymes,None,Moderate
+P0434,40,Male,"Cough, fever",Diabetes,Aspirin,Elevated liver enzymes,Healthy Diet,Moderate
+P0435,45,Male,Shortness of breath,Heart Disease,Lisinopril,Low RBC,None,High
+P0436,79,Female,"Back pain, dizziness",None,None,Normal,None,Low
+P0437,52,Male,"Headache, nausea",Heart Disease,Aspirin,Low RBC,Sedentary,High
+P0438,48,Female,Shortness of breath,Hypertension,Lisinopril,High WBC,Smoker,High
+P0439,69,Male,Shortness of breath,Heart Disease,None,Low RBC,Alcoholic,High
+P0440,45,Female,Shortness of breath,Heart Disease,None,Elevated liver enzymes,None,High
+P0441,62,Male,"Headache, nausea",Asthma,Lisinopril,Low RBC,Smoker,High
+P0442,71,Female,"Headache, nausea",Asthma,Metformin,Normal,Smoker,High
+P0443,25,Male,Shortness of breath,Diabetes,Aspirin,Normal,Smoker,High
+P0444,39,Female,"Cough, fever",Diabetes,Metformin,High WBC,Healthy Diet,Moderate
+P0445,29,Male,None,Hypertension,Aspirin,Low RBC,Active,Moderate
+P0446,69,Male,"Cough, fever",Hypertension,Atorvastatin,Elevated liver enzymes,Active,Moderate
+P0447,28,Female,"Headache, nausea",Diabetes,Lisinopril,High cholesterol,Active,Moderate
+P0448,74,Female,"Chest pain, fatigue",Cancer,Metformin,Elevated liver enzymes,Active,High
+P0449,22,Male,"Back pain, dizziness",Asthma,Metformin,High WBC,Alcoholic,High
+P0450,35,Male,"Back pain, dizziness",Heart Disease,Aspirin,Low RBC,Healthy Diet,High
+P0451,60,Female,"Chest pain, fatigue",Asthma,Metformin,Normal sugar,Alcoholic,High
+P0452,33,Female,None,Hypertension,Atorvastatin,High cholesterol,None,Moderate
+P0453,77,Male,"Back pain, dizziness",Diabetes,Metformin,High WBC,Healthy Diet,Moderate
+P0454,37,Male,None,Cancer,Metformin,Normal,Active,High
+P0455,44,Male,"Cough, fever",Hypertension,Lisinopril,High WBC,Sedentary,Moderate
+P0456,59,Male,"Cough, fever",Cancer,Aspirin,Normal sugar,Active,High
+P0457,37,Female,"Headache, nausea",Cancer,Atorvastatin,Elevated liver enzymes,None,High
+P0458,63,Female,None,Heart Disease,None,Elevated liver enzymes,Active,High
+P0459,25,Female,"Cough, fever",Asthma,Atorvastatin,Normal sugar,Smoker,High
+P0460,69,Male,None,None,None,Low RBC,Alcoholic,High
+P0461,51,Male,"Cough, fever",Asthma,Aspirin,Normal sugar,Alcoholic,High
+P0462,40,Female,Shortness of breath,Cancer,Metformin,Normal sugar,Alcoholic,High
+P0463,42,Male,"Cough, fever",Hypertension,Atorvastatin,Normal sugar,Active,Moderate
+P0464,75,Male,"Chest pain, fatigue",Heart Disease,Aspirin,High cholesterol,Sedentary,High
+P0465,79,Male,"Cough, fever",None,Lisinopril,Elevated liver enzymes,Active,Low
+P0466,71,Female,"Chest pain, fatigue",None,Atorvastatin,Normal sugar,Alcoholic,High
+P0467,66,Female,"Chest pain, fatigue",Diabetes,Lisinopril,Normal,None,High
+P0468,30,Male,None,Diabetes,None,High WBC,None,Moderate
+P0469,41,Male,"Chest pain, fatigue",Heart Disease,Lisinopril,Normal,Smoker,High
+P0470,41,Female,"Headache, nausea",Heart Disease,Atorvastatin,Normal sugar,None,High
+P0471,25,Female,"Chest pain, fatigue",None,Lisinopril,High WBC,Healthy Diet,Low
+P0472,46,Female,"Headache, nausea",Heart Disease,Aspirin,Low RBC,Active,High
+P0473,29,Male,None,Hypertension,None,Elevated liver enzymes,None,Moderate
+P0474,44,Male,None,Asthma,Metformin,Normal,Active,Low
+P0475,61,Female,Shortness of breath,Diabetes,Lisinopril,High WBC,Sedentary,High
+P0476,38,Male,"Cough, fever",Cancer,Aspirin,High WBC,Alcoholic,High
+P0477,42,Female,"Back pain, dizziness",None,Aspirin,High cholesterol,Smoker,High
+P0478,76,Female,Shortness of breath,Heart Disease,Atorvastatin,High cholesterol,Alcoholic,High
+P0479,74,Male,"Headache, nausea",Cancer,Metformin,Low RBC,Alcoholic,High
+P0480,63,Male,"Cough, fever",Heart Disease,Atorvastatin,High cholesterol,Sedentary,High
+P0481,69,Female,"Headache, nausea",None,Atorvastatin,Normal,Alcoholic,High
+P0482,44,Female,"Chest pain, fatigue",Diabetes,Aspirin,Normal,None,Moderate
+P0483,24,Male,"Cough, fever",Diabetes,Lisinopril,High WBC,Alcoholic,High
+P0484,39,Male,"Chest pain, fatigue",Asthma,Aspirin,Normal sugar,Alcoholic,High
+P0485,38,Male,"Cough, fever",Diabetes,Lisinopril,Low RBC,Sedentary,Moderate
+P0486,21,Female,None,Hypertension,Aspirin,Normal,None,Moderate
+P0487,34,Female,"Cough, fever",None,Metformin,High WBC,None,Low
+P0488,57,Female,"Headache, nausea",Heart Disease,Aspirin,High cholesterol,None,High
+P0489,50,Male,"Headache, nausea",None,Aspirin,Normal sugar,Sedentary,Moderate
+P0490,51,Male,"Cough, fever",Hypertension,Lisinopril,Normal,Healthy Diet,Moderate
+P0491,31,Female,"Headache, nausea",Hypertension,Lisinopril,High WBC,Smoker,High
+P0492,61,Female,"Chest pain, fatigue",None,Metformin,Normal,Active,High
+P0493,43,Female,"Headache, nausea",Asthma,Metformin,Low RBC,None,Low
+P0494,58,Female,"Headache, nausea",Diabetes,Aspirin,High WBC,Smoker,High
+P0495,24,Male,"Cough, fever",Heart Disease,None,Normal,Sedentary,High
+P0496,35,Female,"Headache, nausea",Asthma,Aspirin,Low RBC,Healthy Diet,Low
+P0497,48,Male,"Back pain, dizziness",Hypertension,None,Normal,Active,Moderate
+P0498,57,Male,"Cough, fever",Diabetes,Aspirin,Normal sugar,Healthy Diet,Moderate
+P0499,36,Female,"Cough, fever",Asthma,Atorvastatin,Normal,None,Low
+P0500,69,Male,"Back pain, dizziness",Hypertension,Metformin,Normal,Smoker,High
