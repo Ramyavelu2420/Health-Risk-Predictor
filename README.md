@@ -24,6 +24,22 @@ A simple and intelligent health advisor web application that predicts your healt
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](images/home.png)
+
+### 📝 Input Form
+![Form](images/form.png)
+
+### 📊 Prediction Result
+![Result](images/result.png)
+
+### 📂 Health Risk History
+![History](images/history.png)
+
+---
+
 ## How to Run Locally
 
 ```bash
